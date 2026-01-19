@@ -82,6 +82,7 @@
 @layer base {
   * {
     @apply border-border;
+    cursor: url('/archer-cursor.png') 0 0, auto;
   }
 
   html {
@@ -90,6 +91,11 @@
 
   body {
     @apply bg-background text-foreground font-sans antialiased;
+    cursor: url('/archer-cursor.png') 0 0, auto;
+  }
+
+  a, button, [role="button"], input[type="submit"], input[type="button"] {
+    cursor: url('/archer-cursor.png') 0 0, pointer;
   }
 }
 

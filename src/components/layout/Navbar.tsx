@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import archerLogo from "@/assets/archer-logo.png";
 
 const navLinks = [
   { name: "Home", path: "/" },
@@ -40,13 +41,20 @@ const Navbar = () => {
       <div className="container-custom mx-auto px-4 md:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2 group">
-            <span className="text-2xl font-serif font-bold text-foreground group-hover:text-foreground/80 transition-colors">
-              Archers
-            </span>
-            <span className="text-xs text-muted-foreground uppercase tracking-widest">
-              Technologies
-            </span>
+          <Link to="/" className="flex items-center space-x-3 group">
+            <img 
+              src={archerLogo} 
+              alt="Archers Technologies" 
+              className="h-10 w-10 object-contain group-hover:scale-105 transition-transform duration-300"
+            />
+            <div className="flex flex-col">
+              <span className="text-xl font-serif font-bold text-foreground group-hover:text-foreground/80 transition-colors leading-tight">
+                Archers
+              </span>
+              <span className="text-[10px] text-muted-foreground uppercase tracking-[0.2em]">
+                Technologies
+              </span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
