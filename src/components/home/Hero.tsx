@@ -34,7 +34,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       {/* Animated Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-background via-card to-background">
         {/* Animated gradient orbs */}
@@ -100,7 +100,7 @@ const Hero = () => {
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-3 gap-8 mt-20 pt-10 border-t border-border/50 opacity-0 animate-fade-in" style={{ animationDelay: "0.8s", animationFillMode: "forwards" }}>
+          <div className="grid grid-cols-3 gap-8 mt-10 pt-8 border-t border-border/50 opacity-0 animate-fade-in" style={{ animationDelay: "0.8s", animationFillMode: "forwards" }}>
             {[
               { value: "150+", label: "Projects Delivered" },
               { value: "50+", label: "Happy Clients" },

@@ -18,7 +18,6 @@ const Footer = () => {
     ],
     resources: [
       { name: "Portfolio", path: "/portfolio" },
-      { name: "Pricing", path: "/pricing" },
       { name: "Blog", path: "/blog" },
     ],
   };

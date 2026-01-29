@@ -3,7 +3,6 @@ import Hero from "@/components/home/Hero";
 import Services from "@/components/home/Services";
 import WhyUs from "@/components/home/WhyUs";
 import Portfolio from "@/components/home/Portfolio";
-import Pricing from "@/components/home/Pricing";
 import CTA from "@/components/home/CTA";
 
 const Index = () => {
@@ -13,7 +12,6 @@ const Index = () => {
       <Services />
       <WhyUs />
       <Portfolio />
-      <Pricing />
       <CTA />
     </Layout>
   );
