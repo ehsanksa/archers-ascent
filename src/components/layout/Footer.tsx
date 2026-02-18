@@ -55,15 +55,15 @@ const Footer = () => {
                 <span>info@archers.tech</span>
               </a>
               <a
-                href="tel:+1234567890"
+                href="tel:+917674800104"
                 className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors"
               >
                 <Phone size={18} />
-                <span>+1 (234) 567-890</span>
+                <span>+917674800104</span>
               </a>
               <div className="flex items-center gap-3 text-muted-foreground">
                 <MapPin size={18} />
-                <span>New York, NY 10001</span>
+                <span>Hyd, Telangana, India</span>
               </div>
             </div>
           </div>
