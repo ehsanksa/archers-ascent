@@ -20,16 +20,16 @@ const team = [
   },
   {
     name: "Asma Shaikh",
-    role: "Business Development Manager",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
+    role: "Business Consultant Manager",
+    image: "public/female-user.png",
     linkedin: "#",
     twitter: "#",
   },
   {
     name: "Shoeb Mohammed",
-    role: "Head of Marketing",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face",
-    linkedin: "#",
+    role: "Business Development Manager",
+    image: "public/male-user.png",
+    linkedin: "https://www.linkedin.com/in/mohammed-shoeb-77067b215/",
     twitter: "#",
   },
 ];
