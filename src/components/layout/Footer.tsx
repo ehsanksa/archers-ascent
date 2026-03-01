@@ -52,18 +52,18 @@ const Footer = () => {
                 className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors"
               >
                 <Mail size={18} />
-                <span>info@archers.tech</span>
+                <span>info@archerstechnologies.com</span>
               </a>
               <a
                 href="tel:+917674800104"
                 className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors"
               >
                 <Phone size={18} />
-                <span>+917674800104</span>
+                <span>+966551907078</span>
               </a>
               <div className="flex items-center gap-3 text-muted-foreground">
                 <MapPin size={18} />
-                <span>Hyd, Telangana, India</span>
+                <span>St. 113, Nour Al Moustaqbal. Jeddah, Saudi Arabia.</span>
               </div>
             </div>
           </div>

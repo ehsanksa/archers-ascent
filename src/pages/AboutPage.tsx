@@ -5,28 +5,28 @@ import { Button } from "@/components/ui/button";
 
 const team = [
   {
-    name: "Alex Chen",
+    name: "Ahmed Misbah",
     role: "Founder & CEO",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
-    linkedin: "#",
+    image: "https://media.licdn.com/dms/image/v2/D5603AQE3bjkyZWK5Pw/profile-displayphoto-crop_800_800/B56Zwtt_sgGQAM-/0/1770293558705?e=1773878400&v=beta&t=iSzZj71lCiaL7pWCUCLkCjV0ZiSaBV83soy_jDjkUnY",
+    linkedin: "https://www.linkedin.com/in/ahmed-misbahuddin-164b34276",
     twitter: "#",
   },
   {
-    name: "Sarah Johnson",
-    role: "Chief Technology Officer",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop&crop=face",
-    linkedin: "#",
+    name: "Ehsan Ul Haq Syed",
+    role: "Founder & COO",
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQFST9M7KUyDDg/profile-displayphoto-crop_800_800/B4DZwd.stlIUAI-/0/1770029505907?e=1773878400&v=beta&t=S8FMP71gNUYHWRIpEqKhgHpUM4C71a1ADuNIdWeF2t8",
+    linkedin: "https://www.linkedin.com/in/softwaresmaster",
     twitter: "#",
   },
   {
-    name: "Michael Park",
-    role: "Head of Design",
+    name: "Asma Shaikh",
+    role: "Business Development Manager",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
     linkedin: "#",
     twitter: "#",
   },
   {
-    name: "Emily Rodriguez",
+    name: "Shoeb Mohammed",
     role: "Head of Marketing",
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face",
     linkedin: "#",
